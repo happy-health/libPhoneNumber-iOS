@@ -12,7 +12,7 @@ DESC
   s.source       = { :git => "git@github.com:happy-health/libPhoneNumber-iOS.git", :tag => s.version.to_s }
   s.libraries      = 'z'
   s.ios.deployment_target = "11.0"
-  s.osx.deployment_target = "10.9"
+  s.osx.deployment_target = "10.13"
   s.watchos.deployment_target = "4.0"
   s.tvos.deployment_target = "11.0"
   s.requires_arc = true
