@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "libPhoneNumberGeocoding"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0-gh"
   s.summary      = "Geocoding Features for libPhoneNumber-iOS"
   s.description  = <<-DESC
 libPhoneNumberGeocoding for iOS
@@ -9,7 +9,7 @@ DESC
   s.homepage     = "https://github.com/iziz/libPhoneNumber-iOS.git"
   s.license      = 'Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)'
   s.authors      = { "rastaarh" => "rastaar@google.com", "paween" => "paween@google.com", "aalexli" => "aalexli@google.com" }
-  s.source       = { :git => "https://github.com/iziz/libPhoneNumber-iOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:happy-health/libPhoneNumber-iOS.git", :tag => s.version.to_s }
   s.libraries      = 'sqlite3'
   s.ios.deployment_target = "11.0"
   s.osx.deployment_target = "10.9"
