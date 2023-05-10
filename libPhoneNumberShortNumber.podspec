@@ -17,6 +17,6 @@ DESC
   s.tvos.deployment_target = "11.0"
   s.requires_arc = true
   s.private_header_files = 'libPhoneNumberShortNumber/NBGeneratedShortNumberMetadata.h'
-  s.dependency 'libPhoneNumber-iOS'
+  s.dependency 'libPhoneNumber-iOS', '1.0.4-gh'
   s.source_files = 'libPhoneNumberShortNumber/NBShortNumberUtil.{h,m}', 'libPhoneNumberShortNumber/NBShortNumberMetadataHelper.{h,m}', 'libPhoneNumberShortNumber/NBGeneratedShortNumberMetadata.h'
 end
