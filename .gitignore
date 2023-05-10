@@ -24,3 +24,6 @@ Pods
 ObjectiveC.gcda
 
 *.gcno
+
+# Bundler
+vendor/
