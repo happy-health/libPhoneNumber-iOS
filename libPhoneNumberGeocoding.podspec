@@ -18,6 +18,6 @@ DESC
   s.requires_arc = true
   s.resources = "libPhoneNumberGeocoding/Metadata/*.bundle"
   s.private_header_files = 'libPhoneNumberGeocoding/Metadata/NBGeocoderMetadataHelper.h'
-  s.dependency 'libPhoneNumber-iOS'
+  s.dependency 'libPhoneNumber-iOS', '1.0.4-gh'
   s.source_files = 'libPhoneNumberGeocoding/NBPhoneNumberOfflineGeocoder.{h,m}', 'libPhoneNumberGeocoding/Metadata/NBGeocoderMetadataHelper.{h,m}'
 end
